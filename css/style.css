@@ -915,6 +915,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.3);
 }
 #fh5co-agents .fh5co-agent figure img {
+  margin: auto;
   width: 150px;
   height: 150px;
   -webkit-border-radius: 50%;
