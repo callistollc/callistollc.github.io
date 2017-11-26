@@ -16,11 +16,8 @@ $(function() {
             },
             message: {
                 required: true
-            },
-            answer: {
-                required: true,
-                answercheck: true
             }
+         
         },
         messages: {
             name: {
@@ -33,10 +30,8 @@ $(function() {
             message: {
                 required: "um...yea, you have to write something to send this form.",
                 minlength: "thats all? really?"
-            },
-            answer: {
-                required: "sorry, wrong answer!"
             }
+        
         },
         submitHandler: function(form) {
             $(form).ajaxSubmit({
