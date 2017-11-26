@@ -1,6 +1,6 @@
 // validate contact form
 $(function() {
-    $('#contact').validate({
+    $('#contactForm').validate({
         rules: {
             name: {
                 required: true,
