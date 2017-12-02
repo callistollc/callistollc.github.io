@@ -447,7 +447,7 @@ p {
     line-height: 25px;
 }
 a {
-    color: #73d0da
+    color: #D4AF37
 }
 a:hover, a:focus {
     color: #73d0da;
@@ -488,13 +488,13 @@ Buttons
     margin: 0 10px 10px 0;
     padding: 20px 50px;
     border-radius: 3px;
-    color: gold;
+    color: #D4AF37;
     font-size: 16px;
-    border-color: gold;
+    border-color: #D4AF37;
     border: 2px solid;
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: gold;
+    background-color: #D4AF37;
     color: black;
     text-decoration: none;
 }
@@ -502,16 +502,16 @@ Buttons
     display: inline-block;
     padding: 18px 46px;
     border-radius: 3px;
-    color: gold;
+    color: #D4AF37;
     font-size: 16px;
     border: 2px solid;
-    border-color: gold;
+    border-color: #D4AF37;
     
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
     color:black;
     text-decoration: none;
-    background-color: gold;
+    background-color: #D4AF37;
     
 }
 .read-more-btn {
@@ -664,13 +664,14 @@ Custom Slider Controls (Flickity)
     height: 13px;
     opacity: 1;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid black;
     -webkit-transition: background 0.3s;
     transition: background 0.3s;
 }
 .flickity-page-dots .dot.is-selected {
-    background: white;
+    background: black;
 }
+
 
 /* ==========================================================================
 Features Slider
@@ -731,7 +732,10 @@ Features Slider
 Features List
 ========================================================================== */
 .features-list {
-    padding: 50px 0; 
+    padding: 50px; 
+    padding-left: 50px;
+
+  
 }
 .features-list h1 {
     margin: 0 0 10px 0;
@@ -753,7 +757,7 @@ Features List
     margin-right: 25px;
     width: 90px;
     height: 90px;
-    border: solid 2px gold;
+    border: solid 2px #D4AF37;
     border-radius: 50%;
     vertical-align: top;
     text-align: center;
@@ -762,6 +766,10 @@ Features List
 }
 .feature-icon i {
     color: #4e9ba3
+}
+
+.teamrow2 {
+    margin-top: 10px;
 }
 
 /* ==========================================================================
@@ -951,7 +959,7 @@ Screenshots
 Download Now
 ========================================================================== */
 .download {
-    padding: 120px 0;
+    padding: 100px 0;
     background-color: white;
 }
 .download h1 {
@@ -965,7 +973,7 @@ Download Now
 Footer
 ========================================================================== */
 footer {
-    padding: 100px 0
+    padding: 15px 0
 }
 footer p {
     color: #c7cacc;
@@ -1038,7 +1046,7 @@ Nav Overlay
     padding: 50px 0;
     min-width: 190px;
     border-radius: 3px;
-    background-color: gold;
+    background-color: #D4AF37;
     color: black;
     text-transform: uppercase;
     font-weight: 400;
