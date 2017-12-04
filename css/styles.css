@@ -679,7 +679,7 @@ Features Slider
 .features-bg {
     position: relative;
     min-height: 400px;
-    background: url('../img/house4.jpeg') no-repeat center center;
+    background: url('../img/shovel.jpeg') no-repeat center center;
     background-size: cover;
 }
 .features-img {
@@ -959,7 +959,7 @@ Screenshots
 Download Now
 ========================================================================== */
 .download {
-    padding: 100px 0;
+    padding: 30px 0;
     background-color: white;
 }
 .download h1 {
@@ -1119,4 +1119,27 @@ Waypoints
 .delay-1s {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
+}
+/* ==========================================================================
+Google Maps
+========================================================================== */
+ .google-maps {
+        position: relative;
+        padding-bottom: 20%; /*This is the aspect ratio*/
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100% ;
+    }
+
+/* ==========================================================================
+Contact Form
+========================================================================== */
+.contact-form {
+
 }
