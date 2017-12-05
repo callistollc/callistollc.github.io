@@ -764,11 +764,15 @@ Features List
     font-size: 25px;
     line-height: 90px;
 }
-.feature-icon i {
-    color: #4e9ba3
-}
 
 .teamrow2 {
+    margin-top: 10px;
+}
+
+.fa-linkedin {
+    display: block;
+    color:#d4af37;
+    font-size: 15px;
     margin-top: 10px;
 }
 
