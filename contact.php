@@ -3,6 +3,10 @@ DirectoryIndex first.html<?php
 /*
  *  CONFIGURE EVERYTHING HERE
  */
+include 'ChromePhp.php';
+ChromePhp::log('Hello console!');
+ChromePhp::log($_SERVER);
+ChromePhp::warn('something went wrong!');
 
 // an email address that will be in the From field of the email.
 $from = 'Demo contact form <demo@domain.com>';
