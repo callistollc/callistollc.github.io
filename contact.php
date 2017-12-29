@@ -14,7 +14,7 @@ $fromEmail = 'email';
 $fromName = 'name';
 
 // an email address that will receive the email with the output of the form
-$sendToEmail = 'abrown@callisto-llc.com';
+$sendToEmail = 'contact@callisto-llc.com';
 $sendToName = 'CHG, LLC';
 
 // subject of the email
