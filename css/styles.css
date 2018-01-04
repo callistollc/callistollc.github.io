@@ -554,7 +554,7 @@ Navigation
     background: #fff;
     cursor: pointer;
 }
-.nav-toggle span:before {
+.`-toggle span:before {
     top: -10px
 }
 .nav-toggle span:after {
@@ -769,11 +769,7 @@ Features List
     margin-top: 10px;
 }
 
-.fa-linkedin {
-    display: block;
-    color:#d4af37;
-    font-size: 15px;
-}
+
 
 /* ==========================================================================
 Blockquote
@@ -1145,4 +1141,30 @@ Company Logo
 .clogo {
     position: absolute;
     top: -35px;
+}
+
+/* ==========================================================================
+Social Media
+========================================================================== */
+.fa-linkedin {
+    display: block;
+    color:#d4af37;
+    font-size: 15px;
+}
+
+
+#social ul {
+    list-style:none;
+}
+
+#social li {
+    display:inline-block;
+    
+   
+}
+
+#social i {
+     font-size: 20px;
+     color:#d4af37;
+     padding-right: 10px;
 }
