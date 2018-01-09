@@ -751,22 +751,14 @@ Features List
     display: inline-block;
     margin-left: 0;
     width: 65%;
-}
-.feature-icon {
-    display: inline-block;
-    margin-right: 25px;
-    width: 90px;
-    height: 90px;
-    border: solid 2px #D4AF37;
-    border-radius: 50%;
-    vertical-align: top;
-    text-align: center;
-    font-size: 25px;
-    line-height: 90px;
+    margin-top: 20px;
+    
+   
+    
 }
 
 .teamrow2 {
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 
@@ -1150,6 +1142,8 @@ Social Media
     display: block;
     color:#d4af37;
     font-size: 15px;
+    position: absolute;
+    z-index: 1;
 }
 
 
@@ -1168,3 +1162,36 @@ Social Media
      color:#d4af37;
      padding-right: 10px;
 }
+
+/* ==========================================================================
+Headshots
+========================================================================== */
+.feature-icon {
+    display: inline-block;
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    border: solid 2px #D4AF37;
+    border-radius: 50%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 25px;
+    line-height: 90px;
+}
+
+.feature-alex {
+    display: inline-block;
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    border: solid 2px #D4AF37;
+    border-radius: 50%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 25px;
+    line-height: 90px;
+    background-image: url(../img/Alex.jpg);
+    background-size: 100%;
+    
+}
+
