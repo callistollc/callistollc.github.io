@@ -1211,11 +1211,11 @@ Media
 
 @media only screen and (min-width: 500px) {
     .teamrow {
-        margin-right: -330px;
+        margin-right: -280px;
     }
     
     .teamrow2 {
-        margin-right: -330px;
+        margin-right: -280px;
     }
 }
 
