@@ -757,9 +757,6 @@ Features List
     
 }
 
-.teamrow2 {
-    margin-top: 50px;
-}
 
 
 
@@ -1193,9 +1190,11 @@ Headshots
     
 }
 
+
 /* ==========================================================================
 Media
 ========================================================================== */
+
 @media only screen and (max-width: 400px) {
     .feature-alex {
         margin-left: 37.5px;
@@ -1209,3 +1208,15 @@ Media
         margin-right: 56px;
     }
 }
+
+@media only screen and (min-width: 500px) {
+    .teamrow {
+        margin-right: -330px;
+    }
+    
+    .teamrow2 {
+        margin-right: -330px;
+    }
+}
+
+
