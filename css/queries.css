@@ -26,8 +26,9 @@
 	section.video i{font-size:30px;}
 	section.video h1{font-size:15px;font-weight:400;}
 	section.video{padding:40px;}
-	.feature-content{width:100%;text-align:center;margin-top:20px;}
-	.feature-icon{display:block;margin:0 auto;}
+	.feature-content{width:100%; margin-left: 10px;}
 	blockquote p{width:60%;}
 	.features-slider {padding: 11% 50px 10% 50px;}
+    .team-description{visibility:hidden;}
+    .team{text-align:left; margin-left: -20px;}
 }

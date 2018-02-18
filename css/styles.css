@@ -734,6 +734,8 @@ Features List
 .features-list {
     padding: 50px; 
     padding-left: 50px;
+    width: 1450px;
+    
 
   
 }
@@ -1164,8 +1166,8 @@ Headshots
 .feature-icon {
     display: inline-block;
     margin-right: 25px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: solid 2px #D4AF37;
     border-radius: 50%;
     vertical-align: top;
@@ -1177,8 +1179,8 @@ Headshots
 .feature-alex {
     display: inline-block;
     margin-right: 25px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: solid 2px #D4AF37;
     border-radius: 50%;
     vertical-align: top;
@@ -1194,7 +1196,7 @@ Headshots
 /* ==========================================================================
 Media
 ========================================================================== */
-
+/*
 @media only screen and (max-width: 400px) {
     .feature-alex {
         margin-left: 37.5px;
@@ -1220,3 +1222,4 @@ Media
 }
 
 
+*/
