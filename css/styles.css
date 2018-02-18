@@ -1176,7 +1176,7 @@ Headshots
     line-height: 90px;
 }
 
-.feature-alex {
+.feature-person {
     display: inline-block;
     margin-right: 25px;
     width: 150px;
@@ -1187,11 +1187,25 @@ Headshots
     text-align: center;
     font-size: 25px;
     line-height: 90px;
-    background-image: url(../img/Alex.jpg);
     background-size: 100%;
     
 }
 
+.feature-alex {
+       background-image: url(../img/Alex.jpg);
+}
+
+.feature-ben {
+       background-image: url(../img/ben.jpg);
+}
+
+.feature-wenhao {
+       background-image: url(../img/wenhao.jpg);
+}
+
+.feature-eddie {
+       background-image: url(../img/eddie.jpg);
+}
 
 /* ==========================================================================
 Media
